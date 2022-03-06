@@ -771,6 +771,7 @@ li {
     .estamosEspecialmente {
         margin-top: 0px;
         font-size: 13px;
+        width: 95%;
     }
 
     /*MEDIA INDEX B*/
@@ -956,7 +957,7 @@ li {
 
     .estamosEspecialmente{
         padding: 10px;
-        width: 100%;
+        width: 95%;
         height: 350px;
     }
 
@@ -1154,11 +1155,17 @@ li {
     .navegador{
         font-size: 14px;
     }
+    /*MEDIA INDEX A*/
+
+    .indexA{
+        grid-template-columns: 10% 80% 10%;
+    }
 
     .estamosEspecialmente {
         height: 400px;
         column-count: 1;
         column-gap: 0%;
+        
     }
 
     /*MEDIA FOOTER*/
