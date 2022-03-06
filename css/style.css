@@ -214,7 +214,7 @@ li {
     display: grid;
     grid-template-rows: 300px;
     grid-template-columns: 8% 30% 4% 50% 8%;
-    grid-template-areas: "ia1 ia2 ia3 ia4 ia5";
+    grid-template-areas: ". ia2 . ia4 .";
 }
 
 .cajaMision{
@@ -239,7 +239,6 @@ li {
     font-size: 17px;
     height: 240px;
     border-bottom: solid 5px rgb(97, 133, 193);
-    grid-area: ia2;
 }
 
 .estamosEspecialmente {
@@ -761,8 +760,8 @@ li {
         display: grid;
         grid-template-rows: 300px 300px;
         grid-template-columns: 15% 70% 15%;
-        grid-template-areas: "ia1 ia2 ia3"
-                             "ia1 ia4 ia3";
+        grid-template-areas: ". ia2 ."
+                             ". ia4 .";
     }
     .proporcionarEl{
         margin-top: 0px;
@@ -865,6 +864,10 @@ li {
         width: 100px;
     }
 
+    .somosunaEmpresa{
+        width: 70%;
+    }
+    
     /*MEDIA INDEX A*/
 
     .indexA{
@@ -1141,13 +1144,16 @@ li {
 @media screen and (max-width: 485px){
 
     nav{
-        margin-right: 0px;
+        margin-right: 10px;
     }
     
     li {
-        width: 80px;
+        width: 70px;
     }
-    
+
+    .navegador{
+        font-size: 14px;
+    }
 
     .estamosEspecialmente {
         height: 400px;
