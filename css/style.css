@@ -1140,6 +1140,15 @@ li {
 
 @media screen and (max-width: 485px){
 
+    nav{
+        margin-right: 0px;
+    }
+    
+    li {
+        width: 80px;
+    }
+    
+
     .estamosEspecialmente {
         height: 400px;
         column-count: 1;
